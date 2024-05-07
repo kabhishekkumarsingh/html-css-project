@@ -1,0 +1,584 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-menu ul{
+    width: 545px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.logo{
+    font-family: Mulish;
+font-size: 20px;
+font-weight: 700;
+line-height: 30.12px;
+text-align: left;
+color: #4089ED;
+}
+.logo h1 span{
+    width: 70px;
+    height: 70px;
+    gap: 0px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    opacity: 0px;
+    font-style: italic;
+    font-stretch: extra-expanded;
+    color: #fff;
+    background-color: #4089ED;
+    border-radius: 50%;
+    text-align: center; 
+}
+.nav-home{
+    font-family: Mulish;
+font-size: 18px;
+font-weight: 700;
+line-height: 22.59px;
+text-align: left;
+color: #1F1534;
+}
+.nav-home ul li{
+    font-family: Mulish;
+font-size: 18px;
+font-weight: 400;
+line-height: 22.59px;
+text-align: left;
+color: #1F1534;
+cursor: pointer;
+transition:  0.3s;
+}
+ul li:hover{
+    background-color:  #55c2da;
+    font-size: 22px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+.virtual-healthcare-text{
+    width: 445px;
+height: 338px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.virtual-healthcare-text h2{
+    width: 427px;
+height: 112px;
+top: 283px;
+left: 190px;
+gap: 0px;
+opacity: 0px;
+font-family: Mulish;
+font-size: 48px;
+font-weight: 700;
+line-height: 56px;
+text-align: left;
+color: #000;
+}
+.virtual-healthcare-text p{
+    width: 445px;
+height: 96px;
+top: 420px;
+left: 190px;
+gap: 0px;
+opacity: 0px;
+font-family: Mulish;
+font-size: 21px;
+font-weight: 300;
+line-height: 32px;
+text-align: left;
+color: #7D7987;
+}
+.virtual-healthcare-text button
+{
+    width: 200px;
+height: 60px;
+top: 561px;
+left: 190px;
+gap: 0px;
+border-radius: 55px 0px 0px 0px;
+opacity: 0px;
+width: 200px;
+height: 56px;
+top: 564px;
+left: 190px;
+gap: 0px;
+border-radius: 55px 0px 0px 0px;
+opacity: 0px;
+background-color: #458FF6;
+color: #fff;
+border-radius: 40px;
+border: none;
+}
+.virtual-healthcare-image{
+    width: 693px;
+height: 598px;
+
+
+}
+.virtual-healthcare{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.our-service{
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.our-service-text{
+    width: 952px;
+height: 177px;
+
+
+}
+.our-service-text-h1{
+    width: 100%;
+    margin-bottom: 20px;
+
+    display: flex;
+    justify-content: center;
+height: 56px;
+top: 967px;
+left: 695px;
+gap: 0px;
+opacity: 0px;
+font-family: Muli;
+font-size: 16px;
+font-weight: 700;
+line-height: 56px;
+text-align: left;
+color: #000;
+}
+.our-service-text-p{
+    font-family: Muli;
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+text-align: center;
+color: #7D7987;
+}
+.details{
+    width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+.details-serach{
+    width: 270px;
+height: 270px;
+gap: 0px;
+opacity: 0px;
+display: flex;
+flex-direction: column;
+
+}
+.details-serach-img{
+    width: 91.98px;
+height: 90px;
+
+gap: 0px;
+opacity: 0px;
+
+
+
+}
+.details-serach-h4{
+    width: 160px;
+height: 56px;
+
+gap: 0px;
+opacity: 0px;
+font-family: Muli;
+font-size: 18px;
+font-weight: 700;
+line-height: 56px;
+text-align: left;
+color: #000;
+
+}
+.details-serach-p{
+    width: 266px;
+height: 84px;
+
+gap: 0px;
+opacity: 0px;
+font-family: Muli;
+font-size: 16px;
+font-weight: 300;
+line-height: 28px;
+text-align: left;
+color: #7D7987;
+}
+.learn-more{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.learn-btn button{
+    width: 200px;
+height: 60px;
+border: 1px solid #458FF6;
+border-radius: 40px;
+gap: 0px;
+opacity: 0px;
+color: #458FF6;
+background-color: #fff;
+font-family: Muli;
+font-size: 18px;
+font-weight: 700;
+line-height: 60px;
+
+}
+.learn-btn button:hover{
+    background-color: #458FF6;
+    color: #fff;
+}
+.leanding-healthcare{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.leanding-healthcare-img{
+    width: 650px;
+height: 477px;
+
+gap: 0px;
+opacity: 0px;
+
+}
+.leanding-healthcare-text{
+    width: 486px;
+height: 388px;
+
+
+}
+.leanding-healthcare-text h2{
+    width: 427px;
+    height: 112px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Mulish;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: #000;
+}
+.leanding-healthcare-text p{
+    width: 445px;
+height: 96px;
+
+gap: 0px;
+opacity: 0px;
+font-family: Mulish;
+font-size: 21px;
+font-weight: 300;
+line-height: 32px;
+text-align: left;
+color: #7D7987; 
+margin-bottom: 70px;
+}
+.testomonial{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.testomonial-content{
+    width: 800px;
+height: 340px;
+
+border-radius: 24px;
+opacity: 0px;
+background-image: linear-gradient(#67C3F3, #5A98F2);
+}
+.testomonial-h3{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Mulish;
+font-size: 24px;
+font-weight: 700;
+line-height: 48px;
+color: #fff;
+}
+.testomonial-details{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.testomonial-details-d{
+width: 100%;
+width: 40%;
+display: flex;
+justify-content: space-around;
+}
+.testomonial-details-pic img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.testomonial-details-name{
+    margin-top: 10px;
+}
+.testomonial-details-name h2{
+    font-family: Mulish;
+font-size: 22px;
+font-weight: 700;
+line-height: 30px;
+color: white;
+}
+.testomonial-details-name p{
+    font-family: Mulish;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+color: white;
+}
+.testomonial-details-p{
+    width: 50%;
+    font-family: Mulish;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+color: #fff;
+}
+.arrow-nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.arrow{
+    width: 336.43px;
+height: 20px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.left-arrow{
+    
+    width: 28.06px;
+height: 17.86px;
+font-size: 66px;
+
+color: #85a1c9;
+}
+.right-arrow{
+    
+    width: 28.06px;
+height: 17.86px;
+font-size: 66px;
+padding-right: 5px;
+color: #458FF6;
+}
+.dot{
+    width: 160px;
+height: 10px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 0px;
+opacity: 0px;
+padding-top: 27px;
+
+}
+
+.dot div{
+    width: 28.06px;
+    height: 17.86px;
+    font-size: 40px;
+   
+    gap: 0px;
+    opacity: 0px;
+    angle: -0 deg;
+    color: #85a1c9;
+}
+.dot .dot-a{
+
+    width: 28.06px;
+height: 17.86px;
+font-size: 40px;
+top: 1.43px;
+left: 1.22px;
+gap: 0px;
+opacity: 0px;
+angle: -0 deg;
+color: #458FF6;
+}
+.artical-text{
+    margin-top: 80px;
+    margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text h3{
+    font-family: Mulish;
+font-size: 36px;
+font-weight: 700;
+line-height: 56px;
+color: #351d1d;
+}
+.articals{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.articals-1{
+    width: 300px;
+height: 512px;
+display: flex;
+flex-direction: column;
+gap: 15px;
+
+
+}
+.articals-img img{
+    width: 300px;
+    height: 235px;
+    border-radius: 15px 15px 15px 15px;
+
+}
+.articlas-heading{
+    font-family: Mulish;
+font-size: 16px;
+font-weight: 700;
+text-align: center;
+color: #000;
+}
+.articals-p{
+    font-family: Mulish;
+
+font-size: 16px;
+font-weight: 300;
+line-height: 28px;
+text-align: center;
+color: #7D7987;
+
+}
+.read p{
+    height: 30px;
+    font-family: Mulish;
+font-size: 17px;
+font-weight: 600;
+line-height: 28px;
+color: #4089ED;
+padding-bottom: 20px;
+
+}
+/*see it again there is some problem */
+.read p span{
+   margin-top: 13px;
+    font-size: 19px;
+}
+.view-button{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(#67C3F3, #5A98F2);
+}
+.footer-details{
+    width: 391px;
+    height: 201px;
+  margin-top: 18px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.foote-details-h1 h1 span{
+    width: 70px;
+height: 70px;
+gap: 0px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+opacity: 0px;
+font-style: italic;
+font-stretch: extra-expanded;
+background-color: #fff;
+color: #4089ED;
+border-radius: 50%;
+text-align: center;
+}
+.foote-details-h1{
+    font-family: Mulish;
+font-size: 16px;
+font-weight: 700;
+line-height: 24.12px;
+text-align: left;
+color: #fff;
+}
+.footer-details-p{
+    font-family: Mulish;
+font-size: 18px;
+font-weight: 300;
+line-height: 28px;
+text-align: left;
+color: #fff;
+}
+.footer-company-h1{
+    font-family: Mulish;
+font-size: 16px;
+font-weight: 700;
+line-height: 60px;
+text-align: left;
+color: #fff;
+}
+.footer-company-ul ul{
+ 
+list-style: none;
+}
+.footer-company-ul ul li{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 38px;
+    text-align: left;
+    color: #fff;
+    cursor: pointer;
+}
