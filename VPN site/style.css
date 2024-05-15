@@ -6,7 +6,7 @@
 .main-container{
     width: 100%;
     height: 100vh;
-    background-color:#fbfbfb ;
+    background-color:#FBFBFB;
 }
 .nav{
     width: 100%;
@@ -86,6 +86,7 @@ transition: 0.5s;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: #fbfbfb;
 }
 .illustration-1-text{
     width: 500px;
@@ -138,11 +139,13 @@ transition: 0.5s;
 }
 .userr{
     margin-top: 50px;
+  
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100px;  
+    margin-bottom: 90px;  
 }
 
 
@@ -161,4 +164,163 @@ background-color: #fff;
     width: 150px;
     display: flex;
     gap: 20px;
+}
+.plan{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.plan-text{
+width: 555px;
+text-align: center;
+}
+.plan-text h1{
+    margin-bottom: 10px;
+}
+.plann-p{
+    display: flex;
+    
+    gap: 20px;
+    font-family: Rubik;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+color: #4F5665;    
+}
+
+.all-plannn{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.all-plan{
+    width: 350px;
+height: 580px;
+
+
+gap: 0px;
+border-radius: 10px 0px 0px 0px;
+border: 2px solid #DDDDDD;
+opacity: 0px;
+background-color: #fff;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+.plann-h1{
+    font-family: Rubik;
+font-size: 18px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+color: #0B132A;
+}
+.plann{
+    display: flex;
+    
+    flex-direction: column;
+    gap: 10px;
+}
+.all-plann-btn{
+  
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.all-plann-btn-h1{
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+color: #0B132A;    
+}
+.plann-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.map-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.testomonial{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.testomonial-user{
+    width: 370px;
+height: 200px;
+padding-top: 10px;
+padding-left: 10px;
+padding-right: 10px;
+gap: 0px;
+border-radius: 10px ;
+border: 2px gray solid;
+opacity: 0px;
+
+}
+.usr-details-name{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.user-details{
+    width: 182px;
+    display: flex;
+    justify-content: space-between;
+}
+.user-rating{
+    display: flex;
+}
+.user-name h2{
+    font-family: Rubik;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+text-align: center;
+color: #0B132A;
+}
+.user-name p{
+    font-family: Rubik;
+font-size: 14px;
+font-weight: 400;
+line-height: 30px;
+text-align: center;
+color: #4F5665;
+}
+.user-pra p{
+
+    font-family: Rubik;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+color: #0B132A;
+}
+.color{
+    border: 2px red solid;
+  
+}
+.scroll{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.scroll-right{
+    display: flex;
+}
+.scrool-red-btn{
+padding-bottom: 100px;
 }
