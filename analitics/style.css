@@ -182,5 +182,42 @@ font-size: 16px;
 font-weight: 400;
 line-height: 22.4px;
 text-align: center;
-colo: #8794BA;  
+color: #8794BA;  
+}
+.atomoted{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+
+}
+.atomo-text{
+    margin-top: 120px;
+    width: 480px;
+    height: 232px;
+}
+.atomo-text h1{
+font-family: Roboto;
+font-size: 38px;
+font-weight: 700;
+line-height: 46.88px;
+text-align: left;
+color: #172755;
+margin-bottom: 15px;
+
+}
+.atomo-text p{
+font-family: Roboto;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+color: #8794BA;  
+
+}
+.atomo-img{
+    width: 600px;
+height: 410px;
+
+
 }
