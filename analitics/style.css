@@ -1,12 +1,16 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;   
+
+}
+body{
+         background-color: #F8F9FF;
+
 }
 .main-container{
     width: 100%;
     height: 100vh;
-    background-color: F8F9FF;
 }
 .navbar{
     width: 100%;
@@ -114,6 +118,8 @@ height: 554.57px;
     width: 100%;
 display: flex;
 justify-content: center;
+background-color: #F8F9FF;
+
 }
 .main-feat{
     width: 1060px;
@@ -147,6 +153,8 @@ color: #8794BA;
     margin-top: 80px;
     display: flex;
     justify-content: space-around;
+    background-color: #F8F9FF;
+
 }
 .feat-data{
     width: 380px;
@@ -189,6 +197,8 @@ color: #8794BA;
     display: flex;
     margin-top: 100px;
     justify-content: space-between;
+    background-color: #F8F9FF;
+
 
 }
 .atomo-text{
