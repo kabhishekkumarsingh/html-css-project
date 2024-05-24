@@ -231,3 +231,17 @@ height: 410px;
 
 
 }
+.footer{
+    margin-top: 90px;
+    width: 100%;
+height: 825px;
+top: 2948px;
+left: 0px;
+gap: 0px;
+opacity: 0px;
+
+    background-image: url(images/background-bottom.svg);
+}
+
+.footer-pricing{
+}
